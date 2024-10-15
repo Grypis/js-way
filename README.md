@@ -1,1 +1,1 @@
-# js-way
+# module 1.1
