@@ -42,3 +42,27 @@ console.log(q); */
 console.log(Math.round(value));
 console.log(Math.ceil(value));
 console.log(Math.floor(value)); */
+
+/* //!Округлити до 3 чисел після коми 15.2342323
+const x = 15.2342323;
+const copyX = Math.round(x * 1000) / 1000;
+console.log(copyX); */
+
+/* //! Підведення до ступіню
+const x = 10 ** 2;
+console.log(x);
+const x1 = Math.pow(10, 2);
+console.log(x1); */
+
+/* console.log(Math.sqrt(4)); //2 - приведення до кореня квадратного(м2)
+
+console.log(Math.abs(-10)); //10 - приведення до модулю */
+
+/* const x = Math.round(Math.random() * 100); //рандомне число від 0 - 100
+console.log(x); */
+
+/* //! Діапазон від 500 - 1000
+const min = 500;
+const max = 1000;
+const x = Math.round(Math.random() * (max - min) + min);
+console.log(x); */
