@@ -78,3 +78,40 @@ for (const value of values) {
 const res = message.toLowerCase().replaceAll(' ', '_');
 console.log(res);
  */
+
+//!=========================
+/* ## Example 1 - Базові операції з масивом
+
+1. Створіть масив `genres` з елементами "Jazz" та "Blues".
+2. Додайте «Рок-н-рол» до кінця.
+3. Виведіть у консоль перший елемент масиву.
+4. Виведіть останній елемент масиву в консоль. Код повинен працювати для масиву
+   довільної довжини.
+5. Видаліть перший елемент та виведіть його в консоль.
+6. Вставте «Country» та «Reggae» на початок масиву. */
+
+/* const genres = ['Jazz', 'Blues'];
+genres.push('Rock-n-roll');
+console.log(genres);
+console.log(genres.slice(0, 1));
+console.log(genres.slice(-1));
+console.log(genres.shift());
+genres.unshift('Country', 'Reggae');
+console.log(genres);
+ */
+
+//!====================================
+/* ## Example 2 - Масиви та рядки
+
+Напиши скрипт для обчислення площі прямокутника зі сторонами, значення яких
+зберігаються у змінній `values` у вигляді рядка. Значення гарантовано розділені
+пробілом.
+ */
+/* const values = '8 11';
+console.log(values);
+const spl = values.split(' ');
+console.log(spl);
+const height = +spl[0];
+const width = +spl[1];
+const area = height * width;
+console.log(area); */
