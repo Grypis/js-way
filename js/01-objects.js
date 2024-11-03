@@ -6,7 +6,7 @@ if () { }
 function() { }
 switch(){} */
 
-const user = {
+/* const user = {
   name: 'Volodka',
   age: 25,
   balance: 0,
@@ -20,8 +20,38 @@ const user = {
     country: 'Ukraine',
     street: 'Test Street',
   },
-};
+}; */
 
-console.log(user);
+/* console.log(user);
 console.log(user.name);
 console.log(user.location.street);
+console.log(user.location.country);
+console.log(user['location'].country);
+console.log(user.location['country']);
+console.log(user['location']['country']); */
+
+/* const key = 'location';
+user[key]; */
+
+/* const playlist = {
+  name: 'My amazing playlist',
+  rating: 5,
+  tracks: ['track-1', 'track - 2', 'track-3'],
+  isFavorite: true,
+};
+playlist.name = 'Test';
+playlist.tracks[1] = 'hello';
+playlist.rating += 5;
+playlist['rating'] = 15;
+playlist.backgroundImage = 'red';
+console.log(playlist); */
+
+/* function foo(values) {
+  console.log(values);
+  return values.x + values.y;
+}
+const obj = {
+  x: 10,
+  y: 20,
+};
+console.log(foo(obj)); */
