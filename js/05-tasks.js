@@ -50,3 +50,29 @@ for (const salary of Object.values(salaries)) {
   total += salary;
 }
 console.log(total); */
+
+/* function isEnoughCapacity(products, containerSize) {
+  let totalSize = 0;
+  for (const value of Object.values(products)) {
+    totalSize += value;
+  }
+  return totalSize < containerSize;
+}
+const products = {
+  apples: 2,
+  grapes: 4,
+  cherry: 100,
+};
+isEnoughCapacity(products, 10); */
+
+/* const arr = [1, 2, 3, 4, 12, 5, 7];
+const max = Math.max(...arr); */
+
+const arr = [1, 23, 14, 1, 12, 3, 1, 3, 1, 2, 123, 3, 1, 3, 123];
+const result = [];
+for (const item of arr) {
+  if (!result.includes(item)) {
+    result.push(item);
+  }
+}
+console.log(result);
