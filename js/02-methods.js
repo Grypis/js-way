@@ -62,3 +62,27 @@ brother.sum(10, 20); */
 };
 dog.changeName('Warda');
 console.log(dog); */
+
+/* const playlist = {
+  name: 'My amazing playlist',
+  rating: 5,
+  tracks: ['track-1', 'track-2', 'track-3'],
+  changeName(newName) {
+    this.name = newName;
+  },
+  addTrack(track) {
+    this.tracks.push(track);
+  },
+  updateRating(newRating) {
+    this.rating = newRating;
+  },
+  getTrackCount() {
+    return this.tracks.length;
+  },
+}; */
+/* playlist.changeName('New playlist name');
+console.log(playlist);
+ */
+// console.log(playlist.getTrackCount());
+/* playlist.addTrack('new track 1');
+console.log(playlist.getTrackCount()); */
