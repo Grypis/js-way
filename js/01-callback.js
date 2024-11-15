@@ -71,3 +71,17 @@ function div(x1, x2) {
 }
 
 calc(2, 3, add); */
+
+function each(array, callback) {
+  const result = [];
+  for (const item of array) {
+    const myNum = callback(item);
+    result.push(myNum);
+  }
+  return result;
+}
+console.log(
+  each([64, 49, 36, 25, 16], function (value) {
+    return value * 2;
+  }),
+);
