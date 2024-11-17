@@ -1,1 +1,1 @@
-# js-way!
+# js-way
