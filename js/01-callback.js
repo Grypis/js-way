@@ -80,8 +80,26 @@ function each(array, callback) {
   }
   return result;
 }
-console.log(
+/* console.log(
   each([64, 49, 36, 25, 16], function (value) {
     return value * 2;
   }),
-);
+); */
+/* console.log(
+  each([
+    'Hello',
+    'world',
+    'test',
+    function (str) {
+      return str.toUpperCase();
+    },
+  ]),
+); */
+
+/* const arr = [1, 2, 3, 45, 6, 7, 8, 8];
+function callback1(item) {
+  return item / 4;
+}
+const result = each(arr, callback1);
+console.log(result);
+ */
