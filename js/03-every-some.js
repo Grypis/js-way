@@ -34,7 +34,7 @@ const players = [
 /* const isAllOnline = players.every(player => player.online);
 console.log(isAllOnline); */
 
-const arr = [1, 2, 3, 4, 5, 6, 12, 3, 12, 3, 4, 1, 1, 3, 4];
+/* const arr = [1, 2, 3, 4, 5, 6, 12, 3, 12, 3, 4, 1, 1, 3, 4];
 while (!arr.every(el => el === 0)) {
   console.log(arr.join(' '));
 
@@ -44,4 +44,7 @@ while (!arr.every(el => el === 0)) {
     }
   }
 }
-console.log(arr);
+console.log(arr); */
+
+/* const isAnyOnline = players.some(el => el.online);
+console.log('isAnyOnline: ', isAnyOnline); */
