@@ -1,4 +1,4 @@
-const chopShop = {
+/* const chopShop = {
     stones: {
         { name: 'Emelard', price: 1300, quantity: 4 },
         { name: 'Diamond', price: 2700, quantity: 3 },
@@ -12,3 +12,4 @@ caclTotalPrice(stoneName){
     },
 }
 console.log(chopShop.caclTotalPrice('Emelard')); // 5200
+ */
