@@ -68,3 +68,54 @@ changeHatColor('yellow');
 console.log(hat);
 changeSweaterColor(sweater);
  */
+
+/* function foo() {
+  const value = 10;
+  function test() {
+    console.log(value);
+  }
+  const x = test;
+  return x;
+}
+const result = foo();
+result(); */
+
+/* 
+function getCalc(firstName) {
+  const x = 10;
+  function calc(a, b) {
+    console.log(firstName, a + b + x);
+  }
+  return calc;
+}
+const calc1 = getCalc('Volodka');
+calc1(10, 20); */
+
+/* function getCounter() {
+  let x = 0;
+  function increment() {
+    console.log(x++);
+  }
+  return increment;
+}
+
+const firstIncrement = getCounter();
+const secondIncrement = getCounter();
+firstIncrement();
+firstIncrement();
+firstIncrement();
+firstIncrement();
+firstIncrement();
+secondIncrement();
+secondIncrement();
+secondIncrement();
+secondIncrement();
+secondIncrement(); */
+
+function foo() {
+  const arrow = () => {
+    console.log(this);
+  };
+  arrow();
+}
+foo.call({ name: 'Vasya' });
