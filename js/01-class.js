@@ -138,7 +138,7 @@ console.log(dog1.getBreed());
 dog1.setAge(6);
 console.log(dog1.getAge()); */
 
-class Dog {
+/* class Dog {
   #legs;
   #breed;
   #age;
@@ -170,7 +170,82 @@ class Dog {
     return `${this.name} is ${this.#breed}, ${this.color}`;
   }
 }
-const dog1 = new Dog('Lana', 5, 'spaniel', 'gold');
-dog1.age = 5;
+const dog1 = new Dog('Lana', 5, 'spaniel', 'gold'); */
+/* dog1.age = 5;
 dog1.age = 10;
-console.log(dog1.info);
+console.log(dog1.info); */
+
+/* class Calc {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+  sum() {
+    const result = `${this.#getStr()}\nx+y=${this.x + this.y}`;
+    return result;
+  }
+
+  #getStr() {
+    return `x:${this.x};\ny:${this.y}`;
+  }
+}
+const calc1 = new Calc(10, 20);
+console.log(calc1.sum()); */
+
+/* class User {
+  constructor(name, age, city, country) {
+    this.name = name;
+    this.age = age;
+    this.city = city;
+    this.country = country;
+  }
+
+  toString() {
+    let result = '';
+
+    result += this.#getName() + '\n';
+    result += this.#getAge() + '\n';
+    result += this.#getLocation() + '\n';
+
+    return result;
+  }
+
+  #getName() {
+    return `Name: ${this.name}`;
+  }
+  #getAge() {
+    return `Age: ${this.age}`;
+  }
+  #getLocation() {
+    return `Location:\n- city ${this.city}\n- country ${this.country}`;
+  }
+}
+
+const user = new User('Vlad', 20, 'Lviv', 'Ukraine');
+console.log(user.toString()); */
+
+/* class Tesla {
+  static discount = 0.05;
+  constructor(model, price, color) {
+    this.model = model;
+    this.price = price;
+    this.color = color;
+    this.discount = 5;
+  }
+
+  showPrice() {
+    console.log('Price', this.price);
+    console.log('With discount', this.price * (1 - Tesla.discount));
+  }
+}
+
+const car1 = new Tesla('model S', 30000, 'white');
+const car2 = new Tesla('model S', 35000, 'white');
+
+console.log(car1);
+console.log(car2);
+car1.showPrice();
+car2.showPrice();
+Tesla.discount = 0.1;
+car1.showPrice();
+car2.showPrice(); */
