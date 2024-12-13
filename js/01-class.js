@@ -249,3 +249,23 @@ car2.showPrice();
 Tesla.discount = 0.1;
 car1.showPrice();
 car2.showPrice(); */
+
+/* class Task {
+  static #counter = 0;
+  constructor(title, description, deadline) {
+    this.title = title;
+    this.description = description;
+    this.deadline = deadline;
+
+    Task.#counter += 1;
+  }
+
+  static get counter() {
+    return this.#counter;
+  }
+}
+const task1 = new Task('Title1', 'Desc1', 1);
+const task2 = new Task('Title2', 'Desc2', 2);
+const task3 = new Task('Title3', 'Desc3', 3);
+
+console.log(Task.counter); */
